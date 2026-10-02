@@ -8,4 +8,4 @@ export default async function RoleDashboardPage({
   const { role } = await params;
 
   return <RoleDashboard roleParam={role} />;
-}
+} 
